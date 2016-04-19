@@ -1,0 +1,27 @@
+1. What is the maximum number of strings in the input files that your project can handle ? 
+Assume that the heap space available to the JVM is 200MB and that each string has on average 8 characters.
+
+
+????? I dont know 
+
+
+2. What would you do to increase this limit ?
+
+Firsly I will find part of  code is responsible for allocating the most memory. In other words
+which objects occupy large portions of heap where these objects are being allocated in source code
+
+
+
+
+
+
+3. Is your program efficient ?
+
+No, because it is using sequential search ,
+It checks each element in sequence until the desired element is found or the list is exhausted
+
+
+
+
+4. What would you do to increase its execution performance ?
+I would use  comparison utilities for exampl Eugene Myer's An O(ND) Difference Algorithm and Its Variations
